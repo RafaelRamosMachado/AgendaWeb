@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Agenda de Atendimento</title>
+<link rel="icon" href="imagens/fivecon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Criar Novo Atendimento</h1>
+	<form name="frmContato" action="insert">
+		<table>
+			<tr>
+				<td><input type="text" name="nome" placeholder="Nome" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="fone" placeholder="Fone" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="fisio" placeholder="Fisioterapeuta" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="hospital" placeholder="Hospital" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="cirurgiao" placeholder="Nome Cirurgião" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="procedimento" placeholder="Procedimento" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="cor_tape" placeholder="Cor Tape" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="date" name="data_avaliacao" placeholder="Data Avaliação" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="date" name="data_cirurgia" placeholder="Data Cirurgia" class="Caixa1"></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="horario" placeholder="Horario" class="Caixa1"></td>
+			</tr>
+		</table>
+		<input type="button" value="Adicionar" class="Botao1" onclick="validar()">
+	</form>
+<script src="scripts/validador.js"></script>
+</body>
+</html>
