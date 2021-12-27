@@ -2,7 +2,7 @@
 Inspirado no Curso do Professor José de Assis do Youtube!
 * Utilizar a IDE Eclipse;
 * Baixar o repositório;
-* Criar um banco MySQL, copiar as tabelas do scriptgasto.sql(Banco criado no MySQL Workbench);
+* Criar um banco MySQL, copiar a tabela do arquivo attento.sql(Banco criado no MySQL Workbench);
 * Executar o programa pelo index.html
 # Agenda Web
 ## Agendamento de Clientes de Fisioterapia:
